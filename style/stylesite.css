@@ -1,0 +1,100 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.nav_v2{
+	float: left;
+	width: 195px;
+	clear: both;
+	margin: 5px 0;
+}
+
+.nav_v2 ul{
+	margin: 0;
+	padding: 2px;
+	list-style: none;
+	width: 180px;
+	height: auto;
+}
+
+.nav_v2 ul li{
+	padding-left: -15px;
+	position: relative;
+
+}
+
+.nav_v2 ul li a{
+	display: block;
+	padding: 5px 5px 7px 10px;
+	border-bottom: 1px solid #ccc;
+	color: black;
+	text-decoration: none;
+	font-size: 20px;
+}
+.nav_v2 ul li :hover{
+	background-color: #ccc;
+}
+#click2{
+	background-color: #ccc;
+}
+
+.contenner_v2{
+	float: right;
+	width: 815px;
+	background-color: #f9f9f9;
+	padding: 5px;
+	box-shadow: -5px  0px 10px -5px rgba(0,0,0,0.25);
+	margin: 5px 0;
+	border-right: 1px solid #DDDDDD; 
+	font-size: 16px;
+
+}
+.title{
+	color: black;
+	float: center;
+}
+
+#contener2{
+	width: 1024px;
+	height: 100%;
+	font-family: 'Supermarket';
+	background-color:#FFF; 
+	margin: 0 auto;
+	border-bottom: 2px solid #DDDDDD;
+	border-left: 2px solid #DDDDDD;
+	border-right: 2px solid #DDDDDD;
+	font-size: 17px;
+}
+
+.nav_v2 ul li a:hover{
+	color: #ff7e00;
+
+}
+.con_img img{
+	max-width:600;
+	margin-bottom: 20px;
+	margin: 0 auto;
+	
+}
+
+.thailand img{
+	max-height: 250;
+	max-width: 300;
+	display: block;
+	margin: auto auto;
+	box-shadow: 10px  10px 10px 10px rgba(0,0,0,0.25);
+}
+p{
+	color: black;
+	margin-left: 150px;
+}
+
+.p1{
+	font-weight: bold;
+	font-size: 22px;
+	margin-top: 10px;
+	padding-top: 15px;
+
+}
+

@@ -1,0 +1,54 @@
+.asean_img{
+	margin-left: 320px;
+
+}
+
+
+
+.asean_img img{
+	max-width: 400px;
+	max-height: 250px;
+	margin-top: 40px;
+	border-left: 3px  solid #FFF;
+}
+#show_demo{     
+    width:650px;height:150px;     
+    border:1px solid #cccccc;     
+    background-color:pink;     
+    display:none;     
+    padding:5px;     
+    overflow:hidden; 
+    margin: 0 auto  ;
+    border-radius: 5px;
+ }
+
+ p{
+	color: black;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-top: 8px;
+
+}
+
+.p2{
+	margin-left: 150px;
+}
+
+#contener100{
+	width: 1024px;
+	height: 100%;
+	background-color:#FFF; 
+	margin: 0 auto;
+	border-bottom: 2px solid #DDDDDD;
+	border-left: 2px solid #DDDDDD;
+	border-right: 2px solid #DDDDDD;
+	font-family: 'Supermarket';
+	font-size: 17px;
+	border-radius: 10px;
+
+}
+
+.p3{
+	text-align: center;
+	
+}

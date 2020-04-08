@@ -1,0 +1,414 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	background: url(../image/header_bg.png);
+	background-repeat: repeat;
+	background-attachment: fixed;
+	z-index: 0;
+	
+}
+@font-face{
+	font-family: 'Supermarket';
+    	
+         src: url('supermarket.woff') format('woff');
+        
+    font-weight: normal;
+    font-style: normal;
+}
+
+#bar-top{
+	position:fixed;
+	background-color:#FFDDDD;
+	width: 100%;
+	border-bottom: 2px solid #FFCC66;
+	z-index: 9999;
+}
+
+#center-bar-top{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#center-bar-top img{
+	float: left;
+	margin-left: 25px;
+	max-height: 77px;
+}
+
+.clear{
+	clear: both;
+}
+
+#nav{
+	height: 90px;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	margin-right: 120px;
+	float: right;
+	z-index: 100;
+	text-align: center;
+}
+
+#nav li{
+	float: left;
+
+}
+#click{
+	background-color: #FFCC66;
+
+}
+#nav li a{
+	display: block;
+	margin-top: 30px;
+	padding: 15px 20px 15px 20px;
+	color: #555555;
+	text-decoration: none;
+	font-family: 'Supermarket';
+	font-weight: bold;
+	font-size: 18px;
+
+}
+#nav li a:hover {
+	background-color: #FFCC66;
+	border-radius: 3px;
+
+}
+
+#nav li ul {
+	list-style: none;
+	margin: 0;
+	visibility: hidden;
+	position: absolute;
+
+}
+#nav li ul li{
+	float: inherit;
+	border: 1px solid #ff7e00;
+	border-radius: 6px;
+}
+#nav li:hover ul{
+	visibility: visible;
+	
+}
+#nav ul li a {
+	margin: 0;
+	display: block;
+	height: 15px;
+	width: 150px;
+	text-align: left;
+	text-decoration: none;
+	background-color:#FFCC66;
+}
+#nav ul li a:hover{
+	background-color: pink;
+}
+
+#contener{
+	width: 1024px;
+	height: 425px;
+	background-color:#FFF; 
+	margin: 0 auto;
+	border-bottom: 2px solid #DDDDDD;
+	border-left: 2px solid #DDDDDD;
+	border-right: 2px solid #DDDDDD;
+	font-family: 'supermarket';
+	border-radius: 8px;
+
+}
+
+#about{
+	width: 100%;
+	height: 250px; 
+	padding-top: 100px;
+	background-color: #FFCC66;
+}
+
+
+#about-center{
+	width: 1024px;
+	height: 200px;
+	margin: 0 auto;
+	background: url(../image/asean_bg.png) no-repeat center;
+	padding-top: 15px;
+	
+	
+}
+
+.ASEAN_title{
+	float: left;
+	font-family: 'supermarket';
+	height: 40px;
+	width: 100%;
+	background-color:#ff7e00; 
+	font-size: 20px;
+	color: #FFF;
+	margin-top: 15px;
+	position: relative;
+}
+.ASEAN_title a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.ASEAN_topicright{
+	float: left;
+	width: 10px;
+	height: 50px;
+	background: url(../image/wink-title-left.png) no-repeat;
+
+}
+.ASEAN_topicleft{
+	float: right;
+	width: 10px;
+	height: 50px;
+	background: url(../image/wink-title-right.png) no-repeat;
+	
+}
+
+.div-contain{
+	width: 600px;
+	float: left;
+	font-family: 'supermarket';
+	position: relative;
+	margin-top: 0 auto;
+	
+}
+.div-contain p{
+	color: black;
+	font-size: 20px;
+}
+.center img{
+	margin-left: 0 auto;
+}
+
+.div-contain2{
+	float: right;
+	position: relative;
+	width: 380px;
+	margin: 0 auto;
+
+}
+
+.div-contain2 li img{
+	position: relative;
+	float: left;
+	border-radius: 5px;
+}
+.div-contain2 li{
+	position: relative;
+	
+	clear: both;
+	display: table;
+	max-width: 250px;
+	list-style: none;
+	margin-left: 50px;
+	margin-top: 20px;
+	font-size: 15px;
+}
+.div-contain2 li a{
+	margin-top: 20px;
+	padding-left: 15px;
+	text-decoration: none;
+	color: black;
+}
+.div-contain2 li a:hover{
+	color:#ff7e00;
+}
+.ASEAN_title2 {
+	float: left;
+	font-family: 'supermarket';
+	height: 40px;
+	width: 1045px;
+	background-color:#ff7e00; 
+	margin-top: 10px;
+	z-index: 5px;
+	font-size: 20px;
+	color: #FFF;
+	margin-left: -11px;
+
+
+}
+
+.ASEAN_title2 a {
+	text-decoration: none;
+
+
+}
+.title{
+	font-size: 25px;
+	margin-top: 15px;
+	margin-left: 25px;
+}
+
+.topic{
+}
+
+.first{
+	float: left;
+	width: 700px;
+	height: 250px;
+	position: relative;
+	text-decoration: none;
+}
+
+.first li.first img {
+	height: 250;
+	width: auto;
+	float: left;
+	margin-right: 10px;
+
+}
+
+#slides {
+	position:absolute;
+	top:15px;
+	left:4px;
+	z-index:100;
+}
+.slides_container {
+	width:600px;
+    height:300px;
+	overflow:hidden;
+	position:relative;
+	display:none;
+	margin-left: 20px;
+/*
+	»ØèÁ Next/prev 
+*/
+}
+#slides .next,#slides .prev {
+	position:absolute;
+	top:107px;
+	left:-24px;
+	width:24px;
+	height:43px;
+	display:block;
+	z-index:101;
+	margin-left: 20px;
+}
+
+#slides .next {
+	left:600px;
+}
+
+/*
+	Pagination
+*/
+
+.pagination {
+	margin:10px 0 0 0;
+	width:100px;
+}
+
+.pagination li {
+	float:left;
+	margin:0 1px;
+	list-style:none;
+}
+
+.pagination li a {
+	display:block;
+	width:12px;
+	height:0;
+	padding-top:12px;
+	background-image:url(../image/pagination.png);
+	background-position:0 0;
+	float:left;
+	overflow:hidden;
+}
+
+.pagination li.current a {
+	background-position:0 -12px;
+}
+
+
+#back-top {
+	position: fixed;
+	bottom: 30px;
+	margin-left: 1050px;
+	float: right;
+}
+
+#back-top a {
+	width: 100px;
+	float: right;
+	text-align: center;
+	font: 11px/100% Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #bbb;
+
+	/* transition */
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+}
+#back-top a:hover {
+	color: #000;
+}
+
+/* arrow icon (span tag) */
+#back-top span {
+	width: 108px;
+	height: 100px;
+	display: block;
+	margin-bottom: 7px;
+	background: #ddd url(../image/up-arrow.png) no-repeat center center;
+
+	/* rounded corners */
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+
+	/* transition */
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+}
+#back-top a:hover span {
+	background-color: #777;
+}
+#slides2 {
+	position:absolute;
+	top:15px;
+	left:4px;
+	z-index:100;
+	border-radius: 10px;
+}
+
+#slides2 .next,#slides2 .prev {
+	position:absolute;
+	top:107px;
+	left:-24px;
+	width:24px;
+	height:43px;
+	display:block;
+	z-index:101;
+	margin-left: 20px;
+}
+
+#slides2 .next {
+	left:600px;
+}
+.title2{
+	font-size: 25px;
+	margin-left: 25px;
+}
+
+.pagefooter{
+	width: 1024px;
+	height: 100%;
+	background-color:#CFCFCF; 
+	margin: 0 auto;
+	border-bottom: 2px solid #DDDDDD;
+	border-left: 2px solid #DDDDDD;
+	border-right: 2px solid #DDDDDD;
+	font-family: 'supermarket';
+	border-radius: 10px;
+}
